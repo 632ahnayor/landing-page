@@ -4,12 +4,10 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.cdnfonts.com/css/woodland/');
-
 body {
     background-color: white;
     color: black;
-    font-family: "Woodland", sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
 }
 
