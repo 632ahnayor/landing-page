@@ -57,29 +57,41 @@ efisien, dan terintegrasi menggunakan database MySQL.
 
 <br>
 
-## 6. Struktur Database (Tabel Utama) (masih template)
+## 6. Struktur Database (Tabel Utama) (work in progress)
 - Tabel pelanggan: id_pelanggan, nama, alamat, no_hp
 - Tabel layanan: id_layanan, nama_layanan, harga_per_kg
 - Tabel transaksi: id_transaksi, id_pelanggan, id_layanan, tanggal_masuk, tanggal_selesai, berat, total_harga, status
 - Tabel user: id_user, username, password, role
+- .
+- Tabel pengunjung: id_pengunjung, nama, no_hp, email
+- Tabel tiket: id_tiket, id_pengunjung, status
+- 
 
 <br>
 
-## 7. Desain Tampilan (Front-End) (masih template)
+## 7. Desain Tampilan (Front-End) (work in progress)
 - Dashboard: Menampilkan statistik jumlah pelanggan, transaksi, dan grafik pendapatan.
 - Halaman Pelanggan: Form tambah pelanggan dan tabel daftar pelanggan.
 - Halaman Transaksi: Form input transaksi dan tabel daftar transaksi.
 - Halaman Laporan: Laporan pendapatan dengan filter tanggal.
+- .
+- Landing Page: Menampilkan informasi utama, akses untuk membeli tiket, dan akses untuk memberikan review
+- 
 
 <br>
 
-## 8. Alur Proses Sistem (masih template)
+## 8. Alur Proses Sistem (work in progress)
 - Admin login ke sistem.
 - Kasir menambahkan data pelanggan baru (jika belum terdaftar).
 - Kasir mencatat transaksi laundry baru.
 - Sistem menghitung total harga otomatis.
 - Kasir memperbarui status cucian.
 - Admin melihat laporan pendapatan.
+- .
+- Pengunjung dapat melihat informasi tentang objek wisata
+- Pengunjung memesan tiket berkunjung
+- Pengunjung memberikan review setelah berkunjung
+- 
 
 <br>
 
