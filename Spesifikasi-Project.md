@@ -5,26 +5,25 @@
 | Royan Habibi Alfatih | 5025241115 |
 | Bara Semangat Rohmani | 5025241144 |
 
-## 1. Deskripsi Umum
-<p>
+## 1. Deskripsi Umum (masih template)
+
 LaundryCrafty adalah sistem manajemen usaha laundry berbasis web yang membantu pengelola
 laundry dalam mengelola transaksi, pelanggan, layanan, dan laporan pendapatan. Aplikasi ini
 dirancang untuk mengotomatisasi pencatatan dan pengelolaan data laundry agar lebih cepat,
 efisien, dan terintegrasi menggunakan database MySQL.
-</p>
+
 <br>
 
-## 2. Tujuan Proyek
-<ul>
-<li>Mempermudah pengelolaan data pelanggan dan transaksi laundry.</li>
-<li>Mengotomatisasi perhitungan biaya berdasarkan berat cucian atau jenis layanan.</li>
-<li>Menyediakan laporan pendapatan harian, mingguan, dan bulanan.</li>
-<li>Memberikan pengalaman pengguna yang mudah digunakan bagi admin maupun pelanggan.</li>
-</ul>
+## 2. Tujuan Proyek (masih template)
+- Mempermudah pengelolaan data pelanggan dan transaksi laundry.
+- Mengotomatisasi perhitungan biaya berdasarkan berat cucian atau jenis layanan.
+- Menyediakan laporan pendapatan harian, mingguan, dan bulanan.
+- Memberikan pengalaman pengguna yang mudah digunakan bagi admin maupun pelanggan.
+
   
 <br>
 
-## 3. Fitur Utama
+## 3. Fitur Utama (work in progress)
 - Manajemen Pelanggan: Tambah, ubah, hapus, dan lihat data pelanggan.
 - Manajemen Layanan: Menyediakan daftar jenis layanan seperti Cuci Kering, Cuci Setrika, dan Express.
 - Transaksi Laundry: Input data transaksi pelanggan, jenis layanan, berat, harga, tanggal masuk & selesai.
@@ -33,17 +32,22 @@ efisien, dan terintegrasi menggunakan database MySQL.
 - Autentikasi Admin: Login dan logout admin untuk keamanan sistem.
 - Dashboard Statistik: Tampilan grafik transaksi dan pendapatan.
 - Pencarian Data: Mencari pelanggan atau transaksi berdasarkan nama atau tanggal.
+- .
+- Rating and Review: Pelanggan dapat memberi nilai rating (1-5) dan menambahkan review. 
 
 <br>
 
-## 4. Peran Pengguna
+## 4. Peran Pengguna (work in progress)
 - Admin: Mengelola seluruh data (pelanggan, layanan, transaksi, laporan).
 - Kasir/Operator: Input transaksi laundry, memperbarui status, mencetak nota.
 - Pelanggan (opsional): Melihat status cucian dan riwayat transaksi melalui login pelanggan.
+- .
+- Admin:
+- Pelanggan: Melihat halaman utama dan informasi yang tersedia, Memberi rating dan review
  
 <br>
 
-## 5. Spesifikasi Teknis
+## 5. Spesifikasi Teknis (masih template)
 - Front-End: HTML5, CSS3, Bootstrap, JavaScript
 - Back-End: PHP (versi 8.x)
 - Database: MySQL / MariaDB
@@ -53,7 +57,7 @@ efisien, dan terintegrasi menggunakan database MySQL.
 
 <br>
 
-## 6. Struktur Database (Tabel Utama)
+## 6. Struktur Database (Tabel Utama) (masih template)
 - Tabel pelanggan: id_pelanggan, nama, alamat, no_hp
 - Tabel layanan: id_layanan, nama_layanan, harga_per_kg
 - Tabel transaksi: id_transaksi, id_pelanggan, id_layanan, tanggal_masuk, tanggal_selesai, berat, total_harga, status
@@ -61,7 +65,7 @@ efisien, dan terintegrasi menggunakan database MySQL.
 
 <br>
 
-## 7. Desain Tampilan (Front-End)
+## 7. Desain Tampilan (Front-End) (masih template)
 - Dashboard: Menampilkan statistik jumlah pelanggan, transaksi, dan grafik pendapatan.
 - Halaman Pelanggan: Form tambah pelanggan dan tabel daftar pelanggan.
 - Halaman Transaksi: Form input transaksi dan tabel daftar transaksi.
@@ -69,7 +73,7 @@ efisien, dan terintegrasi menggunakan database MySQL.
 
 <br>
 
-## 8. Alur Proses Sistem
+## 8. Alur Proses Sistem (masih template)
 - Admin login ke sistem.
 - Kasir menambahkan data pelanggan baru (jika belum terdaftar).
 - Kasir mencatat transaksi laundry baru.
@@ -79,7 +83,7 @@ efisien, dan terintegrasi menggunakan database MySQL.
 
 <br>
 
-## 9. API Endpoints (Opsional)
+## 9. API Endpoints (Opsional) (masih template)
 - GET /api/pelanggan – Menampilkan semua data pelanggan
 - POST /api/transaksi – Menambah transaksi baru
 - GET /api/transaksi/{id} – Menampilkan detail transaksi
@@ -88,14 +92,14 @@ efisien, dan terintegrasi menggunakan database MySQL.
 
 <br>
 
-## 10. Keamanan dan Validasi
+## 10. Keamanan dan Validasi (masih template)
 - Validasi input di sisi client (JavaScript) dan server (PHP).
 - Password dienkripsi menggunakan password_hash().
 - Akses dibatasi menggunakan session dan role-based authentication.
 
 <br>
 
-## 11. Pengembangan Lanjutan (Versi 2.0)
+## 11. Pengembangan Lanjutan (Versi 2.0) (masih template)
 - Fitur notifikasi WhatsApp otomatis ketika cucian selesai.
 - QR Code untuk nota pelanggan.
 - Dashboard analitik menggunakan Chart.js atau Google Charts.
