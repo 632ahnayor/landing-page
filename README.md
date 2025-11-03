@@ -1,5 +1,5 @@
-# landing-page
-Implementasi Landing Page
+# PWEB Project
+
 <br> <br>
 Kelompok 19:
 - Royan Habibi Alfatih (5025241115)
