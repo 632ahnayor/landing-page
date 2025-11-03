@@ -6,4 +6,4 @@ Kelompok 19:
 
 <br>
 
-[Link to Spesifikasi-Project](../Spesifikasi-Project.md)
+[Link to Spesifikasi-Project](/Spesifikasi-Project.md)
