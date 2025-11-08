@@ -33,7 +33,11 @@ efisien, dan terintegrasi menggunakan database MySQL.
 - Dashboard Statistik: Tampilan grafik transaksi dan pendapatan.
 - Pencarian Data: Mencari pelanggan atau transaksi berdasarkan nama atau tanggal.
 - .
-- Rating and Review: Pelanggan dapat memberi nilai rating (1-5) dan menambahkan review. 
+- Rating and Review: Pelanggan dapat memberi nilai rating (1-5) dan menambahkan review.
+- Konten: Dokumentasi kegiatan, Artikel edukatif, Foto & video lokasi.
+- Pemesanan Tiket: Formulir pemesanan tiket untuk kunjungan dan naik perahu.
+- Status Tiket: Update status tiket (Aktif, Digunakan, Kadaluarsa)
+- 
 
 <br>
 
@@ -42,8 +46,9 @@ efisien, dan terintegrasi menggunakan database MySQL.
 - Kasir/Operator: Input transaksi laundry, memperbarui status, mencetak nota.
 - Pelanggan (opsional): Melihat status cucian dan riwayat transaksi melalui login pelanggan.
 - .
-- Admin:
-- Pelanggan: Melihat halaman utama dan informasi yang tersedia, Memberi rating dan review
+- Admin: Mengelola seluruh data 
+- Operator: Validasi tiket di lokasi
+- Pelanggan: Melihat halaman utama dan informasi yang tersedia, Memberi rating dan review, Memesan tiket
  
 <br>
 
@@ -76,7 +81,9 @@ efisien, dan terintegrasi menggunakan database MySQL.
 - Halaman Laporan: Laporan pendapatan dengan filter tanggal.
 - .
 - Landing Page: Menampilkan informasi utama, akses untuk membeli tiket, dan akses untuk memberikan review
-- 
+- Halaman Pemesanan:
+- Halaman Review:
+- Halaman Admin: Menampilkan informasi dan akses khusus admin
 
 <br>
 
@@ -90,6 +97,7 @@ efisien, dan terintegrasi menggunakan database MySQL.
 - .
 - Pengunjung dapat melihat informasi tentang objek wisata
 - Pengunjung memesan tiket berkunjung
+- Sistem menyimpan data tiket
 - Pengunjung memberikan review setelah berkunjung
 - 
 
